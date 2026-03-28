@@ -7,4 +7,4 @@ function getKeys(obj){
 	return Object.keys(obj);
 }
 
-console.log(getKeys(students));
+console.log(getKeys(student));
