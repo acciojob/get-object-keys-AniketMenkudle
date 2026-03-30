@@ -3,8 +3,8 @@ const student = {
   name: "John",
 };
 
-function getKeys(obj){
-let getKeys = object.keys(student)
+function getKeys(obj) {
+  return Object.keys(obj);
 }
 
-console.log(getKeys);
+console.log(getKeys(student));
