@@ -1,12 +1,10 @@
 //your JS code here. If required.
 const student = {
-  name: "Aniket",
-  age: 22,
-  city: "pune"
+  name: "John",
 };
 
 function getKeys(obj){
-  return Object.keys(obj);
+  return object.keys(student)
 }
 
 console.log(getKeys(student));
